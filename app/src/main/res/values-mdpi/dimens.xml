@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_schose">5dp</dimen>
+    <dimen name="size_image">35dp</dimen>
+    <dimen name="stt_size">12sp</dimen>
+    <dimen name="title_size">7sp</dimen>
+    <dimen name="padding_size">3dp</dimen>
+</resources>

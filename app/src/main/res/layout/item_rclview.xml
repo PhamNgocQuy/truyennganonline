@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whrite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#343434" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_img"
+            android:layout_width="@dimen/size_image"
+            android:layout_height="@dimen/size_image"
+            android:backgroundTint="@color/whrite"
+            android:src="@drawable/wait_video"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:id="@+id/txt_stt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@+id/img_img"
+            android:layout_toRightOf="@+id/img_img"
+            android:text="@string/_1"
+            android:textColor="#000"
+            android:textSize="@dimen/stt_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_stt"
+            android:layout_marginLeft="4dp"
+            android:layout_toEndOf="@+id/img_img"
+            android:layout_toRightOf="@+id/img_img"
+            android:maxLines="2"
+            android:text="@string/hint_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_size" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#343434" />
+</LinearLayout>

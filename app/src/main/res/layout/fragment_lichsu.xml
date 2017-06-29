@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quypn.truyenngan.PNQ18101997.LichsuFragment">
+
+    <TextView
+        android:layout_marginTop="1dp"
+        android:id="@+id/txt_tmp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#343434" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/txt_tmp"
+        android:id="@+id/recyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000" />
+
+</RelativeLayout>

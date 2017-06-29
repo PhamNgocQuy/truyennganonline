@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_schose">12dp</dimen>
+    <dimen name="size_image">80dp</dimen>
+    <dimen name="stt_size">25sp</dimen>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="padding_size">6.5dp</dimen>
+    <dimen name="girdViewSize_Img">125dp</dimen>
+    <dimen name="girdViewSize_Text">45dp</dimen>
+</resources>

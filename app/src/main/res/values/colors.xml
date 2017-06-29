@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7a00d1</color>
+    <color name="colorPrimaryDark">#000021f5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSTTbar">#a60101</color>
+    <color name="colortoobar">#db0000</color>
+    <color name="black">#000</color>
+    <color name="whrite">#ffffff</color>
+</resources>

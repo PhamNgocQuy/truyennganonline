@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#FFFFFF">
+
+    <com.rey.material.widget.Slider
+        android:padding="16dp"
+        android:id="@+id/set_text_size"
+        style="@style/Material.Widget.Slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sl_secondaryColor="#000"
+        app:sl_primaryColor="#000"
+        app:sl_maxValue="80"    
+        app:sl_minValue="10"/>
+
+    <RadioGroup
+        android:layout_below="@+id/set_text_size"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/btn_sang"
+            app:buttonTint="@color/black"
+            android:textColor="#000"
+            android:text="Sáng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/btn_toi"
+            app:buttonTint="@color/black"
+            android:textColor="#000"
+            android:text="tối"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</RelativeLayout>

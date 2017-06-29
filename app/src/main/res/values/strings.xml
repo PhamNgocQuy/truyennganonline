@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Truyện ngắn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_reader">ReaderActivity</string>
+    <string name="facebook_app_id">801258106690060</string>
+    <string name="share_facebook">Chia sẻ với facebook</string>
+    <string name="setting">Cài đặt</string>
+    <string name="hint_title">Chàng trai năm ấy</string>
+    <string name="_1">1</string>
+    <string name="mn_chiase">Chia sẻ</string>
+    <string name="mn_danhgia">Đánh giá</string>
+    <string name="phan_hoi">Phản hồi</string>
+    <string name="mn_cleanHistory">Xóa lịch sử</string>
+    <string name="NoInternetConnected">Không có kết nối internet</string>
+    <string name="hinttitle">Chàng trai năm ấy</string>
+    <string name="title_name">title name</string>
+    <string name="timkiem">Tìm kiếm</string>
+</resources>
